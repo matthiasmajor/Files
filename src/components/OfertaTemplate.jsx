@@ -1,13 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import { graphql } from "gatsby";
-import ReactElasticCarousel from "react-elastic-carousel";
 import { HighlightedHeading } from "./HighlightedHeading/HighlightedHeading";
 import area from "../assets/icons/area.svg";
 import availability from "../assets/icons/availability.svg";
 import blocks from "../assets/icons/blocks.svg";
 import building from "../assets/icons/building-type.svg";
 import key from "../assets/icons/key.svg";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 export const Wrapper = styled.div`
   margin-top: 160px;
@@ -77,14 +78,33 @@ const OfertaTemplate = ({ data: { oferta } }) => {
     { width: 768, itemsToShow: 1 },
     { width: 1200, itemsToShow: 1 },
   ];
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 1,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
   return (
     <Wrapper>
       <Gallery>
-        <ReactElasticCarousel breakPoints={breakPoints}>
+        <Carousel responsive={responsive}>
           {oferta.galeria.map((e) => (
             <img src={e.url} />
           ))}
-        </ReactElasticCarousel>
+        </Carousel>
       </Gallery>
       <WrapperContent>
         <Left>

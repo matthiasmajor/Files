@@ -8,8 +8,8 @@ import {
   Wrapper,
   StyledSocialIcon,
 } from "./Navigation.styles";
-import facebook from "../../assets/icons/facebook.svg";
-import instagram from "../../assets/icons/instagram.svg";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -63,10 +63,10 @@ export const Navigation = () => {
             as="a"
             href="https://www.facebook.com/profile.php?id=100087245306747"
           >
-            <img src={facebook} alt="facebook" />
+            <FaFacebookSquare />
           </StyledSocialIcon>
           <StyledSocialIcon>
-            <img src={instagram} alt="instagram" />
+            <FaInstagram />
           </StyledSocialIcon>
         </div>
       </Wrapper>

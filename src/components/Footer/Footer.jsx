@@ -2,8 +2,9 @@ import React from "react";
 import { Link } from "gatsby";
 import { StyledIcon } from "../StyledIcon/StyledIcon";
 import facebook from "../../assets/icons/facebook.svg";
-import instagram from "../../assets/icons/instagram.svg";
+import { FaInstagram } from "react-icons/fa";
 import styled from "styled-components";
+import { FaFacebookSquare } from "react-icons/fa";
 
 export const StyledFooter = styled.footer`
   display: grid;
@@ -72,7 +73,7 @@ export const Footer = () => {
           target="_blank"
           isDark
         >
-          <img src={facebook} alt="facebookLogo" />
+          <FaFacebookSquare />
         </StyledIcon>
         <StyledIcon
           as="a"
@@ -80,7 +81,7 @@ export const Footer = () => {
           target="_blank"
           isDark
         >
-          <img src={instagram} alt="instagramLogo" />
+          <FaInstagram />
         </StyledIcon>
       </div>
     </StyledFooter>

@@ -1,9 +1,9 @@
 export const Items = [
-  {
+  /*  {
     id: 1,
     title: "Będzin, ul.zwycięstwa",
     url: require("../images/Carousel/Bedzin_zwyciestwa.jpg").default,
-  },
+  }, */
   {
     id: 2,
     title: "Skowronska 21",

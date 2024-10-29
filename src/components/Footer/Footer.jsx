@@ -5,6 +5,7 @@ import facebook from "../../assets/icons/facebook.svg";
 import { FaInstagram } from "react-icons/fa";
 import styled from "styled-components";
 import { FaFacebookSquare } from "react-icons/fa";
+import { StyledSocialIcon } from "../Navigation/Navigation.styles";
 
 export const StyledFooter = styled.footer`
   display: grid;
@@ -58,7 +59,7 @@ export const StyledFooter = styled.footer`
 export const Footer = () => {
   return (
     <StyledFooter>
-      <h4>Daniel Nieruchomości</h4>
+      <h4>Marcel Nieruchomości</h4>
       <div>
         <Link to="/Wspolpraca">Współpraca</Link>
         <Link to="/Oferta">Oferty</Link>
@@ -67,22 +68,22 @@ export const Footer = () => {
         <Link to="/Kontakt">Kontakt</Link>
       </div>
       <div>
-        <StyledIcon
+        <StyledSocialIcon
           as="a"
           href="https://www.facebook.com/profile.php?id=100087245306747"
           target="_blank"
           isDark
         >
           <FaFacebookSquare />
-        </StyledIcon>
-        <StyledIcon
+        </StyledSocialIcon>
+        <StyledSocialIcon
           as="a"
           href="https://www.instagram.com"
           target="_blank"
           isDark
         >
           <FaInstagram />
-        </StyledIcon>
+        </StyledSocialIcon>
       </div>
     </StyledFooter>
   );

@@ -96,7 +96,7 @@ export const Hero = ({ url }) => {
           as={Link}
           to="/Oferta"
         >
-          Sprawdz oferte{" "}
+          Sprawdź ofertę{" "}
         </StyledButton>
       </BackDrop>
     </HeroSection>

@@ -6,17 +6,19 @@ export const Wrapper = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: white;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 50px;
+  overflow-y: hidden;
 
   ${({ theme }) => theme.mq.desktop} {
     position: static;
     display: flex;
+    gap: 60px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -24,7 +26,6 @@ export const Wrapper = styled.div`
     height: unset;
     background-color: transparent;
     padding: 0;
-    margin: 0;
   }
 `;
 export const OuterWrapper = styled.div`
@@ -68,6 +69,7 @@ export const StyledBurger = styled.button`
   border: none;
   cursor: pointer;
   padding: 0;
+  height: unset;
 
   z-index: 10;
 
@@ -104,8 +106,14 @@ export const StyledSocialIcon = styled(StyledIcon)`
   ${({ theme }) => theme.mq.desktop} {
     width: 25px;
     height: 25px;
-    margin: 0 15px;
+    /* margin: 0 15px; */
     padding: 0;
+    /* background-color: yellow; */
+    display: flex:
+    align-items:center;
+    font-size:2rem;
+    color:black;
+    margin-top:2px
   }
 `;
 

@@ -14,6 +14,7 @@ import {
 } from "../styles/pages/kontakt.styles";
 import kontakt from "../assets/animations/kontakt.json";
 import Lottie from "lottie-react";
+import { BsTelephone } from "react-icons/bs";
 
 const Kontakt = () => {
   return (
@@ -36,7 +37,8 @@ const Kontakt = () => {
               marginLeft: "-8px",
             }}
           >
-            <img src={mobile} alt="mobile" /> 504 762 873
+            <BsTelephone />
+            504 762 873
           </Caption>
           <ContactFormWrapper>
             <ContactForm style={{ transform: "translateX(400px)" }} />

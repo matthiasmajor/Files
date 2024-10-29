@@ -62,9 +62,16 @@ export const Title = styled(CornerEffect)`
   font-family: ${({ theme }) => theme.font.family.montserrat};
 `;
 export const Caption = styled.p`
-  color: #848484;
+  /*  color: #848484; */
   text-align: justify;
   max-width: 520px;
+  display: flex;
+  gap: 10px;
+  margin-left: -10px;
+  padding: 0px 15px;
+  ${({ theme }) => theme.mq.desktop} {
+    padding: 0px;
+  }
 `;
 export const Image = styled.img`
   width: 100%;

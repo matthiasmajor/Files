@@ -21,7 +21,9 @@ export const Navigation = () => {
   return (
     <OuterWrapper id="nav">
       <p>
-        <Link to="/">Home</Link>
+        <Link to="/" onClick={ToogleNavigation}>
+          Home
+        </Link>
       </p>
       <StyledBurger onClick={ToogleNavigation}>
         <div></div>
@@ -65,7 +67,10 @@ export const Navigation = () => {
           >
             <FaFacebookSquare />
           </StyledSocialIcon>
-          <StyledSocialIcon>
+          <StyledSocialIcon
+            as="a"
+            href="https://www.instagram.com/marcelodnieruchomosci/"
+          >
             <FaInstagram />
           </StyledSocialIcon>
         </div>

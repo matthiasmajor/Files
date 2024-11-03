@@ -16,8 +16,8 @@ const gatsbyRequiredRules = path.join(
  */
 module.exports = {
   siteMetadata: {
-    title: "Daniel Nieruchomości",
-    siteUrl: "https://www.yourdomain.tld",
+    title: "MarcelodNieruchomosci",
+    siteUrl: "https://www.marcelodnieruchomosci.pl",
   },
   plugins: [
     {

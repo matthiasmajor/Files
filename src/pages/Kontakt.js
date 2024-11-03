@@ -38,7 +38,7 @@ const Kontakt = () => {
             }}
           >
             <BsTelephone />
-            504 762 873
+            791401001
           </Caption>
           <ContactFormWrapper>
             <ContactForm style={{ transform: "translateX(400px)" }} />

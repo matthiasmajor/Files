@@ -36,7 +36,7 @@ const Portfolio = () => {
       <Ball />
       <TitleWrappper>
         <HighlightedHeading width="47" isRight>
-          Kilka słów o mnie..
+          Kilka słów o mnie...
         </HighlightedHeading>
       </TitleWrappper>
 
@@ -58,11 +58,10 @@ const Portfolio = () => {
             </Title>
             <Caption>
               Nieruchomościami zajmuję sie od 5 lat. Przez ten czas zdążyłem
-              poznać potrzeby klientów, na tyle, aby biegle poruszać się w
+              poznać potrzeby klientów na tyle, aby biegle poruszać się w
               branży. Wybierając współpracę ze mną masz gwaranację, że
               dostaniesz to czego oczekujesz. Dokładam wszelkich starań, aby moi
-              klienci byli zawsze zadowoleni, a jeśli nie staram sie zrobić
-              wszystko by ich zadowolić.
+              klienci byli zawsze zadowoleni.
             </Caption>
           </LeftWrapper>
           <LeftWrapper>
@@ -71,9 +70,9 @@ const Portfolio = () => {
             </Title>
             <Caption>
               Pracowałem już z wieloma klientami indywidualnymi, ale też byłem
-              współtwórcą Adaniel Nieruchomości. Sprzedawałem już działki i
-              domy, ale też mieszkania deweloperskie od Murapolu. Posiadam
-              niezbędną wiedzę do przeprowadzenia każdej transakcji.
+              współtwórcą Adaniel Nieruchomości. Sprzedawałem działki i domy,
+              ale też mieszkania deweloperskie od Murapolu. Posiadam niezbędną
+              wiedzę do przeprowadzenia każdej transakcji.
             </Caption>
           </LeftWrapper>
         </Left>

@@ -94,19 +94,19 @@ const IndexPage = () => {
               <Title>Sprzedając nieruchomość z nami, otrzymasz:</Title>
               <Text1>
                 {
-                  "- Szybką, skuteczną sprzedaż, prowadzona na wielu platformach z którymi współpracujemy."
+                  "- Szybką, skuteczną sprzedaż, prowadzoną na wielu platformach, z którymi współpracujemy."
                 }
               </Text1>
               <Text1>{"- Brak kar umownych."}</Text1>
               <Text1>
-                {"- Prostą współprace. Bez papierologii. Jedna kartka - umowa."}
+                {"- Prostą współpracę. Bez papierologii. Jedna kartka - umowa."}
               </Text1>
-              <Text1>{"- BEZPŁATNĄ, dokładną wycene nieruchomości."}</Text1>
+              <Text1>{"- BEZPŁATNĄ, dokładną wycenę nieruchomości."}</Text1>
               <Text1>
-                {"- BEZPŁATNĄ sesje zdjęciową wraz z Home Staging."}
+                {"- BEZPŁATNĄ sesję zdjęciową wraz z Home Staging."}
               </Text1>
               <Text1>
-                {"- Doractwo kredytowe dla zainteresowanych klientów."}
+                {"- Doradztwo kredytowe dla zainteresowanych klientów."}
               </Text1>
               <Title>
                 A w trakcie trwania całego procesu sprzedaży - pomoc 7 dni w
@@ -118,8 +118,8 @@ const IndexPage = () => {
           <ImageWrapper>{View}</ImageWrapper>
         </DetailInfo>
         <WOstatnichLatach style={{ textAlign: "center", marginTop: "120px" }}>
-          W ostatnich latach udało się nawiąząć{" "}
-          <Desktop2Inner>współpracę z wieloma</Desktop2Inner> klientami, bądz
+          W ostatnich latach udało się nawiązać{" "}
+          <Desktop2Inner>współpracę z wieloma</Desktop2Inner> klientami - bądź
           jednym z nich!
         </WOstatnichLatach>
       </Wrapper>
@@ -179,20 +179,20 @@ const IndexPage = () => {
             </DetailServiceInfoTitle>
             <DetailServiceCaption>
               Do każdego klienta podchodzę indywidualnie, zależy mi, aby nasza
-              wspólpraca przebiegła na najwyższym poziomie.
+              współpraca przebiegła na jak najwyższym poziomie.
             </DetailServiceCaption>
           </ParentElement>
           <ParentElement>
             <DetailServiceInfoTitle>Zaangażowanie</DetailServiceInfoTitle>
             <DetailServiceCaption>
-              Wierzę, że starania i poświęcenie, to droga do udanej współpracy.
+              Wierzę, że starania i poświęcenie to droga do udanej współpracy.
             </DetailServiceCaption>
           </ParentElement>
           <ParentElement>
             <DetailServiceInfoTitle>Doświadczenie</DetailServiceInfoTitle>
             <DetailServiceCaption>
               Działam na rynku nieruchomości już kilka lat, wiem czego oczekują
-              odemnie klienci.
+              ode mnie klienci.
             </DetailServiceCaption>
           </ParentElement>
           <ParentElement>

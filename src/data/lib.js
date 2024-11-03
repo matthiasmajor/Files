@@ -6,7 +6,7 @@ export const Items = [
   }, */
   {
     id: 2,
-    title: "Skowronska 21",
+    title: "Skowrońska 21",
     url: require("../images/Carousel/house_2.jpg").default,
   },
   {
@@ -16,7 +16,7 @@ export const Items = [
   },
   {
     id: 4,
-    title: "Barcelonska 11",
+    title: "Barcelońska 11",
     url: require("../images/Carousel/house_4.jpg").default,
   },
   {
@@ -26,7 +26,7 @@ export const Items = [
   },
   {
     id: 6,
-    title: "Sewinska 21",
+    title: "Sewińska 21",
     url: require("../images/Carousel/house_6.jpg").default,
   },
 ];

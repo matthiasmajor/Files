@@ -128,12 +128,12 @@ const Wspolpraca = () => {
         <h3>OFERTA WSPÓŁPRACY SPRZEDAŻY</h3>
         <p>
           Zamierzasz sprzedać swoje mieszkanie, dom lub działkę, ale nie wiesz
-          co, gdzie i jak? Świetnie trafiłeś! Chętnie zajmiemy się tym
-          najszybciej jak to możliwe na ŚWIETNYCH warunkach.
+          co, gdzie i jak? Świetnie trafiłeś! Chętnie zajmę się tym możliwie
+          najszybciej
         </p>
         <p>
-          W celu nawiązania oferty współpracy sprzedaży prosze o kontakt pod
-          numerem telefonu: 791 401 001
+          W celu nawiązania oferty współpracy sprzedaży proszę o kontakt pod
+          numer telefonu: 791 401 001
         </p>
         <p>
           Zapewniam wysoką jakość, terminowość i niską prowizję. Dołącz do grona
@@ -148,13 +148,13 @@ const Wspolpraca = () => {
       <ContentSecond>
         <h3>OFERTA WSPÓŁPRACY KUPNA</h3>
         <p>
-          Zamierzasz sprzedać swoje mieszkanie, dom lub działkę, ale nie wiesz
-          co, gdzie i jak? Świetnie trafiłeś! Chętnie zajmiemy się tym
-          najszybciej jak to możliwe na ŚWIETNYCH warunkach.
+          Zamierzasz kupić, dom lub działkę, ale nie wiesz co, gdzie i jak?
+          Świetnie trafiłeś! Chętnie zajmę się tym najszybciej jak to możliwe na
+          ŚWIETNYCH warunkach.
         </p>
         <p>
-          W celu nawiązania oferty współpracy sprzedaży prosze o kontakt pod
-          numerem telefonu: 791 401 001
+          W celu nawiązania oferty współpracy sprzedaży proszę o kontakt pod
+          numer telefonu: 791 401 001
         </p>
         <p>
           Zapewniam wysoką jakość, terminowość i niską prowizję. Dołącz do grona

@@ -78,7 +78,7 @@ export const Footer = () => {
         </StyledSocialIcon>
         <StyledSocialIcon
           as="a"
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/marcelodnieruchomosci/"
           target="_blank"
           isDark
         >

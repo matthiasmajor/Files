@@ -6,27 +6,38 @@ export const Items = [
   }, */
   {
     id: 2,
-    title: "Skowrońska 21",
-    url: require("../images/Carousel/house_2.jpg").default,
+    title: "Będzin, Łagisza",
+    url: require("../images/Realizacje Marcel/Bedzin Łagisza.jpg").default,
   },
   {
     id: 3,
-    title: "Majchrzaka 21",
-    url: require("../images/Carousel/house_3.jpg").default,
+    title: "Będzin, Piastowska",
+    url: require("../images/Realizacje Marcel/Bedzin Piastowska.jpg").default,
   },
   {
     id: 4,
-    title: "Barcelońska 11",
-    url: require("../images/Carousel/house_4.jpg").default,
+    title: "Bedzin, Skalskiego",
+    url: require("../images/Realizacje Marcel/Bedzin Skalskiego.jpg").default,
   },
   {
     id: 5,
-    title: "Tuwima 29",
-    url: require("../images/Carousel/house_5.jpg").default,
+    title: "Będzin, pileckiego.jpg",
+    url: require("../images/Realizacje Marcel/bedzin, pileckiego.jpg").default,
   },
   {
     id: 6,
-    title: "Sewińska 21",
-    url: require("../images/Carousel/house_6.jpg").default,
+    title: "Sosnowiec Stary Browar",
+    url: require("../images/Realizacje Marcel/Sosnowiec Stary Browar.jpg")
+      .default,
+  },
+  {
+    id: 7,
+    title: "Tychy Aleja Bielska",
+    url: require("../images/Realizacje Marcel/Tychy Aleja Bielska.jpg").default,
+  },
+  {
+    id: 8,
+    title: "Tychy Promienna",
+    url: require("../images/Realizacje Marcel/Tychy Promienna.jpg").default,
   },
 ];

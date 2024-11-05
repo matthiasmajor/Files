@@ -24,19 +24,23 @@ export const Overlay = styled.div`
 `;
 
 export const Element = styled.div`
-
+width: 100%;
+background-size: cover;
+  background-position: center;
+  aspect-ratio: 16 / 9;
 
 ${({ theme }) => theme.mq.desktop} {
   display: block;
   width: 100%;
-  height: 700px;
+  height: 600px;
+  
   background-image: url("${({ url }) => url}");
-  background-size: cover;
+  
   font-family: ${({ theme }) => theme.font.family.montserrat};
   cursor: pointer;
 }
 ${({ theme }) => theme.mq.bigDesktop} {
-  height:1000px;
+  height:600px;
 }
   display: block;
   width: 100%;
@@ -70,6 +74,11 @@ export const Text = styled.div`
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   z-index:1001;
+  padding-bottom:15px;
+  ${({ theme }) => theme.mq.desktop} {
+  padding-bottom:0px;
+  }
+
 
 `;
 

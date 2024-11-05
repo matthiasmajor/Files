@@ -9,6 +9,10 @@ import building from "../assets/icons/building-type.svg";
 import key from "../assets/icons/key.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { BiArea } from "react-icons/bi";
+import { BiKey } from "react-icons/bi";
+import { LuSquareStack } from "react-icons/lu";
+import { BiBuildings } from "react-icons/bi";
 
 export const Wrapper = styled.div`
   margin-top: 160px;
@@ -118,22 +122,22 @@ const OfertaTemplate = ({ data: { oferta } }) => {
         </Left>
         <Right>
           <div>
-            <img src={building} />
+            <BiBuildings />
             <p>Typ Budynku</p>
             <p>{oferta.typBudynku}</p>
           </div>
           <div>
-            <img src={blocks} />
+            <LuSquareStack />
             <p>Pomieszczenia</p>
             <p>{oferta.pomieszczenia}</p>
           </div>
           <div>
-            <img src={key} />
+            <BiKey />
             <p>Dostepność</p>
             <p>{oferta.dostpno}</p>
           </div>
           <div>
-            <img src={area} />
+            <BiArea />
             <p>Powierzchnia:</p>
             <p>{oferta.powierzchnia}</p>
           </div>

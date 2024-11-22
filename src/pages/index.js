@@ -91,7 +91,7 @@ const IndexPage = () => {
             distance="30px"
           >
             <Feature5>
-              <Title>Sprzedając nieruchomość z nami, otrzymasz:</Title>
+              <Title>Sprzedając nieruchomość ze mną, otrzymasz:</Title>
               <Text1>
                 {
                   "- Szybką, skuteczną sprzedaż, prowadzoną na wielu platformach, z którymi współpracujemy."
@@ -118,9 +118,9 @@ const IndexPage = () => {
           <ImageWrapper>{View}</ImageWrapper>
         </DetailInfo>
         <WOstatnichLatach style={{ textAlign: "center", marginTop: "120px" }}>
-          W ostatnich latach udało się nawiązać{" "}
-          <Desktop2Inner>współpracę z wieloma</Desktop2Inner> klientami - bądź
-          jednym z nich!
+          W ostatnich latach udało mi się nawiązać{" "}
+          <Desktop2Inner>współpracę z wieloma</Desktop2Inner> klientami, i
+          sprzedać wiele mieszkań. Bądź jednym z wielu zadowolonych klientów.
         </WOstatnichLatach>
       </Wrapper>
 
@@ -128,8 +128,10 @@ const IndexPage = () => {
         <OfertaWrapper>
           <HighlightedHeading>Moja oferta</HighlightedHeading>
           <Caption>
-            W mojej ofercie każdy znajdzie coś dla siebie, bogaty wybór, szereg
-            możliwości, przekonaj się sam.
+            W mojej ofercie każdy znajdzie coś dla siebie. Mieszkanie dla
+            singla, młodego małzeństwa czy też rodziny z dziećmi? Nie ma
+            problemu. Znajdę. Mieszkanie inwestycyjne? Również w ofercie. A
+            jeśli nie, zadzwoń do mnie, na pewno mam coś co Cię zainteresuje.
           </Caption>
           <ButtonWrapper>
             <StyledButton as={Link} to="/Oferta">

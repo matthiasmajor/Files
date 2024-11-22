@@ -61,7 +61,7 @@ export const ContactForm = () => {
       <textarea name="message" id="message" placeholder="Wiadomość" />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       {state.errors ? <p>Bład</p> : null}
-      {state.succeeded ? <p>Dziękujemy za wiadomość!</p> : null}
+      {state.succeeded ? <p>Dziękuje za wiadomość!</p> : null}
 
       <StyledButton isCenter type="submit" disabled={state.submitting}>
         Wyślij

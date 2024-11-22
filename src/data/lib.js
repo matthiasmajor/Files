@@ -16,12 +16,12 @@ export const Items = [
   },
   {
     id: 4,
-    title: "Bedzin, Skalskiego",
+    title: "Będzin, Skalskiego",
     url: require("../images/Realizacje Marcel/Bedzin Skalskiego.jpg").default,
   },
   {
     id: 5,
-    title: "Będzin, pileckiego.jpg",
+    title: "Będzin, Pileckiego",
     url: require("../images/Realizacje Marcel/bedzin, pileckiego.jpg").default,
   },
   {

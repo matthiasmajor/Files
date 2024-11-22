@@ -21,8 +21,12 @@ export const Navigation = () => {
   return (
     <OuterWrapper id="nav">
       <p>
-        <Link to="/" onClick={ToogleNavigation}>
-          Home
+        <Link
+          to="/"
+          onClick={ToogleNavigation}
+          style={{ display: "block", whiteSpace: "nowrap" }}
+        >
+          Strona Główna
         </Link>
       </p>
       <StyledBurger onClick={ToogleNavigation}>

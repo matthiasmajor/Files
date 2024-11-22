@@ -88,7 +88,7 @@ export const Hero = ({ url }) => {
     >
       <Trigger url={url}></Trigger>
       <BackDrop>
-        <p>Marcel od Nieruchomości.</p>
+        <p style={{ fontSize: "18px" }}>Marcel od Nieruchomości.</p>
         <h1>Nieruchomości, które Cię zainspirują.</h1>
         <StyledButton
           style={{ marginTop: "15px" }}

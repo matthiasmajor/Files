@@ -21,14 +21,14 @@ const Oferta = ({
 }) => {
   const { oferta, setOferta } = useCity();
   const [house, setHouse] = useState(oferta);
-  const [active, setActive] = useState("katowice");
+  const [active, setActive] = useState("Sprzedaż");
 
   const activeButton = (city) => {
     setActive(city);
   };
 
   useEffect(() => {
-    const List = oferta.filter((e) => e.category === "katowice");
+    const List = oferta.filter((e) => e.category === "Sprzedaż");
     setHouse(List);
   }, []);
 
@@ -44,23 +44,32 @@ const Oferta = ({
         <HighlightedHeading width="60">Oferta</HighlightedHeading>
       </TitleWrappper>
       <Caption>
-        Nieustannie poszukujemy nowych ofert nieruchomości. Wybierz miasto które
-        Cię interesuje.
+        Nieustannie poszukujemy nowych ofert nieruchomości. Wybierz oferteę
+        która Cię interesuje.
       </Caption>
 
       <ButtonSection>
-        {miasto.map((item) => (
-          <Button
-            isActive={active}
-            buttonName={item.miasto}
-            onClick={() => {
-              handleDirection(`${item.miasto}`);
-              activeButton(`${item.miasto}`);
-            }}
-          >
-            {item.miasto}
-          </Button>
-        ))}
+        <Button
+          isActive={active}
+          buttonName={"Sprzedaż"}
+          onClick={() => {
+            handleDirection("Sprzedaż");
+            activeButton(`Sprzedaż`);
+          }}
+        >
+          Sprzedaż
+        </Button>
+
+        <Button
+          isActive={active}
+          buttonName={"Wynajem"}
+          onClick={() => {
+            handleDirection("Wynajem");
+            activeButton(`Wynajem`);
+          }}
+        >
+          Wynajem
+        </Button>
       </ButtonSection>
       <ImageSection Layout>
         {house.length > 0 ? (
@@ -86,7 +95,7 @@ const Oferta = ({
   );
 };
 
-export const query = graphql`
+/* export const query = graphql`
   query {
     miasto: allContentfulMiasta {
       nodes {
@@ -94,6 +103,6 @@ export const query = graphql`
       }
     }
   }
-`;
+`; */
 
 export default Oferta;

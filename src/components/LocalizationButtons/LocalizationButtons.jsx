@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import { useState } from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import styled from "styled-components";
@@ -41,4 +41,4 @@ export const LocalizationButtons = () => {
   );
 };
 
-export default LocalizationButtons;
+export default LocalizationButtons; */

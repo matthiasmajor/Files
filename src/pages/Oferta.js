@@ -14,11 +14,13 @@ import { TitleWrappper } from "./index";
 import { useCity } from "../hooks/useCity";
 import { LocalizationButtons } from "../components/LocalizationButtons/LocalizationButtons";
 
-const Oferta = ({
-  data: {
+const Oferta = (
+  {
+    /* data: {
     miasto: { nodes: miasto = [] },
-  },
-}) => {
+  }, */
+  }
+) => {
   const { oferta, setOferta } = useCity();
   const [house, setHouse] = useState(oferta);
   const [active, setActive] = useState("Sprzedaż");

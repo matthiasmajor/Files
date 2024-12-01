@@ -65,7 +65,7 @@ export const Text = styled.div`
   color: black;
   font-weight: bold;
   font-family:${({ theme }) => theme.font.family.montserrat}
-  font-size: 20px;
+  font-size: 16px;
   position: absolute;
   overflow: hidden;
   top: 50%;
@@ -77,6 +77,7 @@ export const Text = styled.div`
   padding-bottom:15px;
   ${({ theme }) => theme.mq.desktop} {
   padding-bottom:0px;
+  font-size: 20px;
   }
 
 

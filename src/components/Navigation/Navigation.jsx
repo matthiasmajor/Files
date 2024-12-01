@@ -23,7 +23,7 @@ export const Navigation = () => {
       <p>
         <Link
           to="/"
-          onClick={ToogleNavigation}
+          /* onClick={ToogleNavigation} */
           style={{ display: "block", whiteSpace: "nowrap" }}
         >
           Strona Główna

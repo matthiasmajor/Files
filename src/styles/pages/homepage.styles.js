@@ -377,7 +377,7 @@ export const ImagesOfertaSmall = styled.img`
 // DETAILINFOSERVICE //
 
 export const DetailInfoService = styled.section`
-  margin-top: 500px;
+  margin-top: 520px;
   padding: 0 20px 0 20px;
   ${({ theme }) => theme.mq.desktop} {
     margin: 0 auto;

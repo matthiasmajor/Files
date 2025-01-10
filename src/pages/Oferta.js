@@ -46,8 +46,8 @@ const Oferta = (
         <HighlightedHeading width="60">Oferta</HighlightedHeading>
       </TitleWrappper>
       <Caption>
-        Nieustannie poszukujemy nowych ofert nieruchomości. Wybierz oferteę
-        która Cię interesuje.
+        Nieustannie poszukujemy nowych ofert nieruchomości. Wybierz ofertę która
+        Cię interesuje.
       </Caption>
 
       <ButtonSection>
